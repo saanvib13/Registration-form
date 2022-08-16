@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <h1>REGISTRATION FORM</h1>
+    </div>
+    <div class="main">
+      <div class="form">
+        <form action="" class="form-add" name="form">
+          <label for="">Name</label>
+          <input type="text" class="inp name" />
+          <br />
+          <label for="">Email</label>
+          <input type="email" class="inp mail" />
+          <br />
+          <label for="">Website</label>
+          <input type="url" class="inp web" />
+          <br />
+          <label for="">Image link</label>
+          <input type="file" accept=".png , .jpg" class="inp img" />
+          <!-- <input type="url"> -->
+
+          <br />
+          <div class="gnder-div">
+            <div class="gnder-label">
+              <label for="">Gender</label>
+            </div>
+            <div class="gnder">
+              <label>
+                <input type="radio" value="male" name="gender"  />
+                <span class="rad"></span>
+                <span>Male</span> <br />
+              </label>
+              <label>
+                <input type="radio" value="Female" name="gender" />
+                <span class="rad"></span>
+                <span>Female</span> <br />
+              </label>
+              <label>
+                <input type="radio" value="Other" name="gender" />
+                <span class="rad"></span>
+                <span>Other</span>
+              </label>
+            </div>
+          </div>
+          <br /><br /><br /><br />
+          <div class="skill-div">
+            <div class="skill-label">
+              <label for="">Skills</label>
+            </div>
+            <div class="skills">
+              <label>
+                <input type="checkbox" value="HTML" />
+                <span class="check"></span>
+                <span>HTML</span>
+              </label>
+              <label>
+                <input type="checkbox" value="CSS" />
+                <span class="check"></span>
+                <span>CSS</span>
+              </label>
+              <label>
+                <input type="checkbox" value="JavaScript" />
+                <span class="check"></span>
+                <span>JavaScript</span>
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="enroll">Enroll Student</button>
+        </form>
+      </div>
+
+      <div class="card">
+        <h3>Enrolled Students</h3>
+        <table class="tble">
+          <thead>
+            <td class="desc">Description</td>
+            <td class="image">Image</td>
+          </thead>
+          <tbody>
+            <!-- <tr>
+              <td>
+                <h5>hehehe</h5>
+              </td>
+              <td><img src="" alt="image"></td>
+            </tr>
+            <tr>
+              <td>
+                <h5>huihui</h5>
+              </td>
+              <td><img src="" alt="image"></td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
